@@ -45,4 +45,4 @@ When a browser encounters a <script> tag without the async or defer attribute, i
 By using the async or defer attribute, you can tell the browser to download and execute the script asynchronously, allowing the page to continue rendering without waiting for the script to complete.
 The difference between async and defer is in how they handle the order of script execution.
 
-QUESTION-9 
+QUESTION-9 Create a new Git repo
