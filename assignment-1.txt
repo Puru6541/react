@@ -1,0 +1,48 @@
+QUESTION -1 What is Emmet?
+
+ANS - Emmet uses different abbreviations and short expressions depending on what's passed, and then dynamically converts the abbreviations into the full code.
+
+QUESTION-2 Difference between a Library and Framework?
+
+ANS-2 A library is a collection of pre-written code that can be used to perform specific tasks. Developers can use a library by calling its functions or methods from their own code. Libraries can provide a wide range of functionality, from basic operations like string manipulation to more complex tasks like data visualization. Libraries are usually designed to be flexible, allowing developers to use them in different ways to solve different problems.
+On the other hand, a framework is a collection of libraries, tools, and guidelines that provide a structure for developing software applications. Frameworks typically define the overall architecture of an application and provide a set of rules and conventions for how code should be organized and structured. Developers can use a framework to build applications faster and with less effort, as much of the basic infrastructure is already provided by the framework.
+In summary, libraries are collections of pre-written code that can be used to perform specific tasks, while frameworks are sets of guidelines, libraries, and tools that provide a structure for building applications.
+
+QUESTION-3 What is CDN? Why do we use it?
+
+ANS-3 A CDN, or Content Delivery Network, is a network of servers distributed across various geographic locations that work together to provide faster and more reliable delivery of web content, such as images, videos, and other static assets.
+When a user requests content from a website, the request is routed to the server nearest to the user's location, rather than to the website's origin server. This can significantly reduce the distance that the content has to travel, resulting in faster load times and a better user experience.
+
+QUESTION -4 Why is React known as React?
+
+ANS-4In traditional web development, when the state of an application changes, the entire page must be reloaded to display the updated content. However, React works differently by using a virtual DOM (Document Object Model) to represent the UI. When the state of an application changes, React updates only the necessary parts of the virtual DOM, which in turn updates the actual DOM.
+The name "React" reflects this reactive approach to building user interfaces, where changes to the state of an application trigger updates to the UI.
+
+QUESTION-5 What is crossorigin in script tag?
+
+ANS-5 The crossorigin attribute in the <script> tag allows the browser to determine whether a script can be loaded from a different origin, and if so, what level of access it has to resources on that origin.
+The crossorigin attribute is typically used when loading scripts from a different domain or subdomain. It is important to note that the server hosting the script must also be configured to support CORS, by sending the appropriate CORS headers in the response.
+
+QUESTION-6 What is diference between React and ReactDOM?
+
+ANS-6 React and ReactDOM are both JavaScript libraries used for building user interfaces, but they serve different purposes.
+React is the core library that provides the tools and APIs for building reusable UI components, handling state and props, and managing the application's lifecycle. It is responsible for the virtual DOM management, reconciliation, and rendering of the UI.
+ReactDOM, on the other hand, is a package that provides the integration between React and the browser DOM. It contains methods for rendering React components to the DOM, updating the DOM in response to changes in state or props, and handling events.
+In other words, React is the library that handles the logic of building and updating UI components, while ReactDOM provides the bridge between React and the actual HTML DOM, allowing React components to be rendered and updated in the browser.
+To summarize, React is the library for building UI components and managing application state, while ReactDOM is the library that connects React to the browser's DOM and provides methods for rendering and updating components.
+
+QUESTION-7 What is difference between react.development.js and react.production.js files via CDN?
+
+ANS-7 The React library provides two versions of its JavaScript file: react.development.js and react.production.js. The difference between these files is primarily related to their size and level of optimization.
+The react.development.js file is the non-minified version of the React library. It is larger in size and contains additional debugging information that can be useful during development, such as helpful error messages and warnings.
+The react.production.js file, on the other hand, is the minified and optimized version of the library that is intended for use in production environments. It is smaller in size and has been optimized for performance by removing debugging information, dead code elimination, and other optimizations.
+When using a CDN to serve the React library, you can choose to load either the development or production version of the library, depending on your needs. During development, you might prefer to use the react.development.js file for its additional debugging information, while in production, you would want to use the smaller and optimized react.production.js file to improve the performance of your website.
+It's important to note that the same difference between development and production versions of the React library applies to other related files, such as react-dom.development.js and react-dom.production.js.
+
+QUESTION-8 What is async and defer?
+ANS-8 sync and defer are two attributes that can be used in the <script> tag to control the loading and execution of JavaScript files.
+When a browser encounters a <script> tag without the async or defer attribute, it blocks the rendering of the page until the script has been downloaded and executed. This can cause performance issues, especially for large or slow-loading scripts.
+By using the async or defer attribute, you can tell the browser to download and execute the script asynchronously, allowing the page to continue rendering without waiting for the script to complete.
+The difference between async and defer is in how they handle the order of script execution.
+
+QUESTION-9 
